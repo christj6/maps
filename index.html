@@ -11,59 +11,7 @@
 <!DOCTYPE html>
 <html>													
 <head>
-<style>
-body{
-	background-image:url("rust.jpeg");
-}
-h1{
-	color:#E0E099;
-	text-align:center;
-	text-shadow:2px 2px #000000;
-}
-div#map_canvas{
-	width:700px;
-	height:700px;
-}
-div.center{
-	margin:auto;
-	width:70%;
-}
-div.text{
-	margin:0;
-	padding:0;
-	padding-bottom:3.25em;
-}
-div.text label{
-	margin:0;
-	padding:0;
-	display:block;
-	font-size:100%;
-	padding-top:0.1em;
-	padding-right:0.25em;
-	width:8.2em;
-	text-align:right;
-	float:left;
-	font-size:1.2em;
-	color:#E0E099;
-	text-shadow:2px 2px #000000;
-}
-div.text input,
-div.text textarea{
-	margin:0;
-	padding:0;
-	display:block;
-	font-size:100%;
-}
-input:active,
-input:focus,
-input:hover,
-textarea:active,
-textarea:focus,
-textarea:hover{
-	background-color:lightyellow;
-	border-color:yellow;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="mapstyle.css">
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
 <script type="text/javascript" src="maps.js"></script>
 </head>
@@ -71,7 +19,7 @@ textarea:hover{
 
 <div id="container" style="width:100%">
 
-	<div id="header" style="width:100%; padding:1em; font-size:1.2em">
+	<div class="header">
 		<h1>Brownfield Properties Evaluation Tool</h1>
 	</div>
 
@@ -94,8 +42,8 @@ textarea:hover{
 			</div>
 			<!--<input type="button" value="Submit" onclick="codeAddress()">-->
 			<!--<input type="button" value="View" onclick="view()">-->
-			<div id="instructions" style="text-align:left; margin-top:10%; font-size:1.2em; color:#E0E099; text-shadow:2px 2px #000000;">
-				<p style="font-size:1.25em; color:#CC3300; text-shadow:2px 2px #000000;">Instructions:</p>
+			<div class="instructions">
+				<p class="inst">Instructions:</p>
 				<p>Enter an address into the address field, and chemicals into the chemical field (press
 				Enter after each chemical for all of them to be read correctly). </p>
 				<p>Press the submit button, and the program will place a marker at that location on the map.
