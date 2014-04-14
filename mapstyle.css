@@ -1,0 +1,68 @@
+body{
+	background-image:url("rust.jpeg");
+}
+h1{
+	color:#E0E099;
+	text-align:center;
+	text-shadow:2px 2px #000000;
+}
+div#map_canvas{
+	width:700px;
+	height:700px;
+}
+div.center{
+	margin:auto;
+	width:70%;
+}
+div.header{
+	width:100%;
+	padding:1em;
+	font-size:1.2em;
+}
+div.instructions{
+	text-align:left;
+	margin-top:10%;
+	font-size:1.2em;
+	color:#E0E099;
+	text-shadow:2px 2px #000000;
+}
+.inst{
+	font-size:1.25em;
+	color:#CC3300;
+	text-shadow:2px 2px #000000;
+}
+div.text{
+	margin:0;
+	padding:0;
+	padding-bottom:3.25em;
+}
+div.text label{
+	margin:0;
+	padding:0;
+	display:block;
+	font-size:100%;
+	padding-top:0.1em;
+	padding-right:0.25em;
+	width:8.2em;
+	text-align:right;
+	float:left;
+	font-size:1.2em;
+	color:#E0E099;
+	text-shadow:2px 2px #000000;
+}
+div.text input,
+div.text textarea{
+	margin:0;
+	padding:0;
+	display:block;
+	font-size:100%;
+}
+input:active,
+input:focus,
+input:hover,
+textarea:active,
+textarea:focus,
+textarea:hover{
+	background-color:lightyellow;
+	border-color:yellow;
+}
