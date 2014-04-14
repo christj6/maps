@@ -79,23 +79,23 @@ textarea:hover{
 		<div class="center">
 			<div class="text">
 				<label for="address">Address</label>
-				<input type="textbox" size="30" name="address" id="address"/>
+				<input type="textbox" size="30" name="address" id="address" value="Trenton Transit"/>
 			</div>
 			<div class="text">
 				<label for="chemicals">Chemicals</label>
-				<textarea rows="5" cols="44" name="chemicals" id="chemicals"></textarea>
+				<textarea rows="5" cols="44" name="chemicals" id="chem"></textarea>
 			</div>
 			<div class="text">
 				<label for="costthreshold">Cost Threshold</label>
-				<input type="textbox" size="30" name="costthreshold" id="costthreshold"/>
+				<input type="textbox" size="30" name="costthreshold" id="thresh" value="500"/>
 			</div>
 			<div id="buttons">
 				<input type="button" value="Submit" onclick="codeAddress()">
 			</div>
 			<!--<input type="button" value="Submit" onclick="codeAddress()">-->
 			<!--<input type="button" value="View" onclick="view()">-->
-			<div id="instructions" style="text-align:left; margin-top:15%; font-size:1.2em; color:#E0E099; text-shadow:2px 2px #000000;">
-				<p>How to use:</p>
+			<div id="instructions" style="text-align:left; margin-top:10%; font-size:1.2em; color:#E0E099; text-shadow:2px 2px #000000;">
+				<p style="font-size:1.25em; color:#CC3300; text-shadow:2px 2px #000000;">Instructions:</p>
 				<p>Enter an address into the address field, and chemicals into the chemical field (press
 				Enter after each chemical for all of them to be read correctly). </p>
 				<p>Press the submit button, and the program will place a marker at that location on the map.
