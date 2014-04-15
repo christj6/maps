@@ -7,8 +7,8 @@ h1{
 	text-shadow:2px 2px #000000;
 }
 div#map_canvas{
-	width:500px;
-	height:500px;
+	width:600px;
+	height:600px;
 }
 div.center{
 	margin:auto;
@@ -34,7 +34,7 @@ div.instructions{
 div.text{
 	margin:0;
 	padding:0;
-	padding-bottom:2.25em;
+	padding-bottom:1.25em;
 }
 div.text label{
 	margin:0;
