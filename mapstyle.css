@@ -21,7 +21,7 @@ div.header{
 }
 div.instructions{
 	text-align:left;
-	margin-top:10%;
+	margin-top:8%;
 	font-size:1.2em;
 	color:#E0E099;
 	text-shadow:2px 2px #000000;
@@ -34,7 +34,7 @@ div.instructions{
 div.text{
 	margin:0;
 	padding:0;
-	padding-bottom:3.25em;
+	padding-bottom:2.25em;
 }
 div.text label{
 	margin:0;
